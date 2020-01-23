@@ -14,6 +14,7 @@ Terminal commands to install all the dependenses and to start the project
 
 
 File to replace 
+- download the chat_room_files on your computer and extract the files
 - replace all the files from @hello/hello to your @hello/hello in you project 
 - replace all the files from @hello/chat to  @hello/chat in your project
 - copy the static dictionary from @hello to @hello in your project
