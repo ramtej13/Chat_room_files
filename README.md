@@ -42,6 +42,18 @@ Finally
 - after logging as super user  
 - go to the below url to c the chat room 
   - http://127.0.0.1:8000/chat/   
+  
+ 
+
+new commit commands 
+
+- git clone ----
+- pip3 install requirements.txt
+- python3 manage.py makemigrations 
+- python3 manage.py migrate
+- python3 manage.py collectstatic
+- python3 manage.py createsuperuser
+- python3 manage.py runserver 
 
 
 
