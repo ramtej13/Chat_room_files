@@ -47,7 +47,7 @@ Finally
 
 new commit commands 
 
-- git clone ----
+- git clone https://github.com/ramtej13/Chat_room_files.git
 - pip3 install requirements.txt
 - python3 manage.py makemigrations 
 - python3 manage.py migrate
