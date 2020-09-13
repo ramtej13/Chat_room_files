@@ -25,7 +25,7 @@ SECRET_KEY = 'zs-v((4k##%&u0=k$@2j)%$m()e%3-h7jul@e0v$3!8k08j#rb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['35.225.86.16']
+ALLOWED_HOSTS = ['35.232.239.28']
 
 
 # Application definition
