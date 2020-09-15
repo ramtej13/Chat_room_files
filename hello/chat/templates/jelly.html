@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test_websocket</title>
+</head>
+<body>
+<hi>helllo</hi>
+<div id="this_class"><input type="text" id="mytext"></div>
+</body>
+<script>
+    let socket = new WebSocket('ws://localhost:8000/ws/jelly/');
+    socket.onopen =function(e){
+        alert('Connection established');
+    };
+
+    socket.onmessage = function(e){
+        var recData=JSON.parse(e.data);
+        var newHello = recData['value']['value'][1]['ohlc']['open']
+        console.log(newHello);
+    };
+
+    socket.onclose = function(e){
+        alert('Connection CLosed');
+    };
+
+
+
+</script>
+</html>
