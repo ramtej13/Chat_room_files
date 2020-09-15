@@ -9,7 +9,7 @@
 <div id="this_class"><input type="text" id="mytext"></div>
 </body>
 <script>
-    let socket = new WebSocket('ws://'+ localhost +'/ws/jelly/');
+    let socket = new WebSocket('ws://localhost:8000/ws/jelly/');
     socket.onopen =function(e){
         alert('Connection established');
     };
