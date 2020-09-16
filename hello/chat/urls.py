@@ -19,7 +19,7 @@ from . import views
 
 urlpatterns = [
     path('chat/', views.index, name='index'),
-    path('chat/<str:room_name>/', views.room, name='room'),
+    path('chat/room/', views.room, name='room'),
     path('jelly/', views.jelly, name='jelly'),
 
 ]
