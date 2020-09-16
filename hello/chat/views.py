@@ -10,7 +10,7 @@ def index(request):
     return render(request, 'index.html', {})
 
 @login_required
-def room(request, room_name):
+def room(request):
     return render(request, 'room.html', {
         # 'room_name_json': mark_safe(json.dumps(room_name)),
         'username': mark_safe(json.dumps(request.user.username)),

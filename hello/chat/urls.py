@@ -20,7 +20,7 @@ from . import views
 urlpatterns = [
     path('chat/', views.index, name='index'),
     path('chat/room/', views.room, name='room'),
-    path('jelly/', views.jelly, name='jelly'),
+    path('', views.jelly, name='jelly'),
 
 ]
 
